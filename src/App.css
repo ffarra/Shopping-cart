@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #67d1da;
+  color: #fad3c9;
+}
+
+.App{
+  width: 500px;
+  background: #fd7163;
+  margin-top: 15%;
+  border-radius: 10px;
+  padding: 20px;
+  height: min-content;
+
+}
+
+.add-stuff{
+  width: 450px;
+  height: 40px;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  background-color: #fad3c9;
+  margin-top: 30px;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+input{
+  width: 390px;
+  height: 35px;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  background-color: #fad3c9;
+  border: none;
+  color: #fd7163;
+  border-radius: 0.25rem;
+}
+
+::placeholder{
+  color: #fd7163;
+  font-size: 24px;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ec645b;
+  background: white;
+  border-radius: 50px;
+  font-size: 23px;
+  color: #ec645b;
+  min-width: 70px;
+  justify-content: space-between;
+}
+.total{
+  font-size: 35px;
+  text-align: end;
+  margin-right: 5%;
+}
